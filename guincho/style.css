@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.container1{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content1{
+    text-align: center;
+    background-image: url(img/foto20.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+
+.conteudo{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 40px 20px 50px;
+}
+
+.content1 h1{
+    font-size: 35px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.content1 a{
+    font-size: 15px;
+    background-color: #f07331;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+}
+
+.content1 p{
+    color: #fff;
+    padding: 15px 25px;
+}
+
+.para{
+    font-size: 13px;
+    padding: 15px 25px;
+    color: #fff;
+}
+
+.content2{
+    background-color: #eeeeee;
+    padding: 10px 20px;
+}
+
+.conteudo1{
+    padding: 10px 30px;
+}
+
+.content2 h2{
+    letter-spacing: 2px;
+    color: #f07331;
+    text-align: start;
+}
+
+.content2 a{
+    background-color: #f07331;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.bloco{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.bloco .col-12{
+    text-align: center;
+}
+
+.col-12 p{
+    text-align: center;
+}
+
+.fundo-icon{
+    background-color: #f07331;
+    border-radius: 5px;
+    padding: 7px 7px 4px 7px;
+}
+
+.coluna{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.content3{
+    display: block;
+    position: relative;
+    background-image: url(img/foto3.png);
+}
+
+.conteudo3{
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 80px 20px;
+}
+
+.fundin{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.content3 h1{
+    color: #fff;
+}
+
+.content3 p{
+    color: #fff;
+    font-size: 15px;
+}
+
+.content3 a{
+    background-color: #f07331;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 5px;
+}
+
+.content4{
+    padding: 40px 20px;
+    background-color: #eeeeee;
+}
+
+.content4 h6{
+    color: #2e2e2e;
+}
+
+.content4 h2{
+    color: #f07331;
+    font-size: 28px;
+}
+
+.content4 p{
+    font-size: 15px;
+}
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 10px;
+}
+
+.lista a{
+    display: flex;
+    gap: 10px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.lista p{
+    margin: 0;
+    color: #f07331;
+    font-size: 20px;
+}
+
+.lista span{
+    background-color: #f07331;
+    width: 8px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.content5{
+    padding: 10px 20px;
+    background-color: #eeeeee;
+    width: 100%;
+}
+
+.content6{
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.content6 h1{
+    color: #f07331;
+    font-size: 30px;
+    text-align: center;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.content7{
+    width: 100%;
+}
+
+.top{
+    background-color: #f07331;
+    width: 100%;
+    padding: 20px;
+}
+
+.top h5, .top h2{
+    margin: 0;
+    color: #fff;
+    text-align: center;
+}
+
+.footer{
+    background-image: url(img/foto4.png);
+    display: block;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer p{
+    font-size: 15px;
+    color: #fff;
+}
+
+.fundopreto{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px 20px;
+    width: 100%;
+}
+
+.footer h5{
+    color: #fff;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.copy p{
+    text-align: center;
+    margin: 0;
+}
+
+.serv{
+    width: 150px !important;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
