@@ -204,6 +204,8 @@ body{
     padding: 10px 20px;
     background-color: #eeeeee;
     width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .content6{
